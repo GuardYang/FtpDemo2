@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FtpDemo</string>
+    <string name="title">ftp文件上传下载</string>
+    <string name="network_success">连接成功!</string>
+    <string name="network_fail">连接失败!</string>
+    <string name="post_success">上传成功!</string>
+    <string name="post_fail">上传失败!</string>
+</resources>
