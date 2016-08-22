@@ -10,8 +10,8 @@ import android.content.SharedPreferences.Editor;
 public class ConfigUtils {
     public static String ftpIp = "172.19.0.3";
     public static int ftpPort = 21;
-    public static String ftpUser = "ftpserver";
-    public static String ftpPassWord = "123qwe!@#";
+    public static String ftpUser = "admin";
+    public static String ftpPassWord = "admin";
     public static ConfigEntity loadftpConfig(Context cx) {
         ConfigEntity entity = new ConfigEntity();
         SharedPreferences share = cx.getSharedPreferences("ConfigUtils", Context.MODE_WORLD_WRITEABLE);
